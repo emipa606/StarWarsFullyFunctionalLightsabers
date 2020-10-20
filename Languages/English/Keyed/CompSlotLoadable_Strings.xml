@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <ExceptionSlotAlreadyFilled>{0}'s slot is already filled</ExceptionSlotAlreadyFilled>
   <Unavailable>unavailable</Unavailable>
   <IsDrafted>{0} is drafted.</IsDrafted>

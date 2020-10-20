@@ -4,6 +4,6 @@ namespace SWSaber
 {
     public class CompProperties_LightsaberActivatableEffect : CompProperties_ActivatableEffect
     {
-        public CompProperties_LightsaberActivatableEffect() => this.compClass = typeof(CompLightsaberActivatableEffect);
+        public CompProperties_LightsaberActivatableEffect() => compClass = typeof(CompLightsaberActivatableEffect);
     }
 }

@@ -18,16 +18,17 @@ namespace SWSaber
 
         public static Thing GenerateCrystal(ThingDef crystalDef, float chance = 1.0f)
         {
-            if (Rand.Value <= chance)
+            if (Rand.Value > chance)
             {
-                if (crystalDef != null)
-                {
-                    Thing thing = ThingMaker.MakeThing(crystalDef, null);
-                    thing.stackCount = 1;
-                    return thing;
-                }
+                return null;
             }
-            return null;
+            if (crystalDef == null)
+            {
+                return null;
+            }
+            Thing thing = ThingMaker.MakeThing(crystalDef, null);
+            thing.stackCount = 1;
+            return thing;
         }
 
         public static void GenerateCrystalFor(Pawn p)
@@ -128,23 +129,28 @@ namespace SWSaber
             Pawn pawn = (Pawn)AccessTools.Field(typeof(Pawn_EquipmentTracker), "pawn").GetValue(__instance);
 
             CompLightsaberActivatableEffect lightsaberEffect = newEq.TryGetComp<CompLightsaberActivatableEffect>();
-            if (lightsaberEffect != null)
+            if (lightsaberEffect == null)
             {
-                if (pawn != null)
-                {
-                    if (pawn.Faction != null)
-                    {
-                        if (pawn.Faction != Faction.OfPlayerSilentFail)
-                        {
-                            CompCrystalSlotLoadable crystalSlot = newEq.GetComp<CompCrystalSlotLoadable>();
-                            if (crystalSlot != null)
-                            {
-                                CrystalSlotter(crystalSlot, lightsaberEffect);
-                            }
-                        }
-                    }
-                }
+                return;
             }
+            if (pawn == null)
+            {
+                return;
+            }
+            if (pawn.Faction == null)
+            {
+                return;
+            }
+            if (pawn.Faction == Faction.OfPlayerSilentFail)
+            {
+                return;
+            }
+            CompCrystalSlotLoadable crystalSlot = newEq.GetComp<CompCrystalSlotLoadable>();
+            if (crystalSlot == null)
+            {
+                return;
+            }
+            CrystalSlotter(crystalSlot, lightsaberEffect);
         }
     }
 }

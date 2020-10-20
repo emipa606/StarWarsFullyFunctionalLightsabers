@@ -1,7 +1,5 @@
 ﻿using Verse;
 using HarmonyLib;
-using System.Threading;
-using System;
 
 namespace SWSaber
 {
@@ -14,7 +12,7 @@ namespace SWSaber
             try
             {
                 Traverse.Create(this).Field("glowOnInt").SetValue(true);
-                this.parent.MapHeld.glowGrid.RegisterGlower(this);
+                parent.MapHeld.glowGrid.RegisterGlower(this);
             }
             catch { }
         }
@@ -25,7 +23,7 @@ namespace SWSaber
         {
             try
             {
-                this.parent.Map.glowGrid.MarkGlowGridDirty(this.parent.Position);
+                parent.Map.glowGrid.MarkGlowGridDirty(parent.Position);
             }
             catch { }
             {
@@ -39,7 +37,7 @@ namespace SWSaber
         {
             try
             {
-                this.parent.Map.glowGrid.MarkGlowGridDirty(this.parent.Position);
+                parent.Map.glowGrid.MarkGlowGridDirty(parent.Position);
             }
             catch { }
         }
@@ -48,7 +46,7 @@ namespace SWSaber
         {
             try
             {
-                this.parent.Map.glowGrid.DeRegisterGlower(this);
+                parent.Map.glowGrid.DeRegisterGlower(this);
                 base.PostDestroy(mode, previousMap);
             }
             catch { }

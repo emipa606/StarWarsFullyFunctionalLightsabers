@@ -1,50 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Star Wars - Fully Functional Lightsabers</name>
-  <author>Jecrell and Xen</author>
+  <name>Star Wars - Fully Functional Lightsabers (Continued)</name>
+  <packageId>Mlie.StarWarsFullyFunctionalLightsabers</packageId>
+  <author>Xen and Jecrell</author>
+  <url>https://github.com/emipa606/StarWarsFullyFunctionalLightsabers</url>
   <supportedVersions>
     <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
-  <packageId>projectjedi.lightsabers</packageId>
   <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
     <li>
       <packageId>jecrell.jecstools</packageId>
       <displayName>JecsTools</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/932008009</steamWorkshopUrl>
-      <downloadUrl>https://patreon.com/jecrell</downloadUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2195729899</steamWorkshopUrl>
     </li>
   </modDependencies>
   <loadAfter>
+    <li>brrainz.harmony</li>
     <li>jecrell.jecstools</li>
   </loadAfter>
-  <description>1.21.0.0 (02-29-2020)
+  <description>Update of Xen and Jecrells mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=918200645
 
-	Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.
+[img]https://i.imgur.com/wtwHAQu.png[/img]
 
-	Thanks to Jedi Master Ailan for his direction and inspiration in the creation of this mod. Without his help and support this would have never happened.
+Support-chat:
+https://invite.gg/mlie
 
-	C# Programming by Jecrell.
-	C# Fixes, Assets, and XML by Xen.
-    Logo/Art designed by Harrison Gaushell (harrisongaushell.com)
+Non-steam version:
+https://github.com/emipa606/StarWarsFullyFunctionalLightsabers
+	
+- This is an unofficial port
+- This will be removed when/if Jecrell comes back
 
-	Patreon Patrons:
-	Jedi Master Ailan, Shane Malley, Michin, TheDayDude, Dakota Pohlman, Falloutmonk, Legless, Slick Liquid,  Don Butterblume, Karol Rybak, Mathias Broxvall, Nemuri Hime, Hannah Forster, Christian Hermansen, NiNe Bottles of Rum, Populous25, Steven James, Marcus Sireanu, Michael Lauder, Thom Black
+--- Original Description ---
+Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.
 
-Thank you to my Patrons for supporting me in my efforts. Without you, none of this would be possible.
+A16 - GitHub Branch -&gt; https://github.com/jecrell/Star-Wars---Fully-Functional-Lightsabers/tree/A16
 
-These are the most excellent rim dwellers who support me: 
-Marcus Bell, RainerWingel, Dalton Johnson, Chris Seieroe, Robin Gleeson, Robert Alessi, Lea Stannard, Teres, David Silberstein, Sam, Kiya Nicoll, Matt Harris, Paul Fenwick, Grendalloffen, Don Homer, Josh McCabe, Elodie, Gothi, J, Michael Paugh, Audrin Navarro, Михаил Юрченко, Calum, Tim Stillson, Adam Bliss, Populous25, Marcus Sireanu, Maaxar, John Kanady, Midgeman, Dick Jones, Patrick, TinyFloatingTurtle, Nathan Getman, LionsFate, Sharp Spook, Cristina Shaver, Mark, George Chong Chuang Ming, Oliver White, roxxploxx, Emily Shaw, Karol Rybak, Justin Andres, Marcus Regan, Robin Hager, Allic, Austin Harbert, E_T, Alex Mederer, Alexander, Toss Antilles
 
-========================
-Changelog
-========================
-1.21.0.0 (02-29-2020)
-========================
-Updates Star Wars Lightsabers to work with the newest version of RimWorld. RimWorld v1.1.
+::::: NOTICE :::::
+::::: THIS MOD NOW REQUIRES JECSTOOLS FOR A17 ::::::
+Download
+http://steamcommunity.com/sharedfiles/filedetails/?id=932008009
 
-1.20.0.0 (10-19-2018)
-========================
-Initial release for RimWorld 1.0.
+Thanks to
+Jedi Master Ailan
+for his direction and inspiration in the creation of this mod. Without his help and support this would have never happened.
 
-</description>
+Quick start notes:
+Lightsabers can be constructed at the component assembly bench.
+Crystals can be refined from rocks at the electric smelter.
+Rare crystals can be found out in RimWorld for sale from merchants or at enemy bases.
+Legendary crystals can be found similarly to artifacts as well as in the clutches of Star Wars faction leaders.
+
+Reference
+Lightsaber Recipe
+-1x lightsaber casing
+-1x lightsaber internals
+
+Lightsaber casing
+-15 plasteel
+-5 components
+
+Lightsaber internals
+-25 plasteel
+-15 steel
+-5 components
+
+Lightsaber crystals
+https://docs.google.com/spreadsheets/d/1poiSM7jAlEvDq5fuEsSNwszlSNGmNiW42sp8G3Ujp-Q/edit?usp=sharing
+
+Technical Details Information
+Lightsabers could be the most extensive C# coded weapons available in RimWorld.
+Included on a lightsaber are the following C# libraries:
+Extra sounds Component
+Activatable visual effect component
+Crystal slot loadable component
+Oversized weapon component
+Deflection and reflection component
+Customized lightsaber C# library
+
+Most of these elements can be used by other modders by relocating the assemblies to their own mod folder to make their own mods using these components. So if you'd like to make a gun with different kinds of loadable ammunition, or a different sort of laser sword, now is a good time.
+
+Special thanks to all those that support me (and help me pay the rent) on Patreon (August 2017):
+Jedi Master Ailan, Shane Malley, Dakota Pohlman, Falloutmonk, Slick Liquid, Thom Black ShotgunFace, Fredric Sundberg, Dan Winn, Toss Antilles, Sarah Banks, Undead Jackel, Michin, Chelsea, Caine Detueur, Yewty Oxman, Jerod Clayton, Arty Kubin, Ashleigh Miller, infinity421, TheDayDude, Jacob Duga, Ryan Brock, Evan Hwang, Moshat, Christopher, Don Butterblume, John Boehr, George Chong Chuang Ming, Oliver White, Helpful Bot, vincent de keijzer, roxxploxx, Legless, Christopher Abel, Karol Rybak, Mathias Broxvall, Mark, Tim Stillson, Lachlan Easton, Nemuri Hime, Sera, Christian Hermansen, NiNe Bottles of Rum, Populous25, Steven James, Marcus Siraenu, Michael Lauder, meatface.
+
+Lightsaber Developers
+Programming by Jecrell.
+Assets and XML by Xen.
+Logo/Art designed by Harrison Gaushell (Website[harrisongaushell.com])
+Spanish translation by Bub.
+French translation by MrFootman.
+German translation by Lauri7x3</description>
 </ModMetaData>
