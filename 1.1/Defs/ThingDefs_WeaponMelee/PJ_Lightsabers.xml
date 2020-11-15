@@ -12,6 +12,9 @@
           <li>WoodLog</li>
         </disallowedThingDefs>
       </defaultIngredientFilter>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
     </recipeMaker>
     <weaponTags>
       <li>PJ_Lightsaber</li>
