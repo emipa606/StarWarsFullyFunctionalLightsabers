@@ -1,10 +1,11 @@
-﻿using Verse;
-using HarmonyLib;
+﻿using HarmonyLib;
+using Verse;
 
 namespace SWSaber
 {
-    class SaberGlow : CompGlower
+    internal class SaberGlow : CompGlower
     {
+        private IntVec3 pos = IntVec3.Invalid;
         //bool spawnHandled = false;
 
         public override void PostSpawnSetup(bool respawningAfterLoad)
@@ -14,10 +15,11 @@ namespace SWSaber
                 Traverse.Create(this).Field("glowOnInt").SetValue(true);
                 parent.MapHeld.glowGrid.RegisterGlower(this);
             }
-            catch { }
+            catch
+            {
+                // ignored
+            }
         }
-        
-        IntVec3 pos = IntVec3.Invalid;
 
         public void GlowTick(object state)
         {
@@ -25,7 +27,11 @@ namespace SWSaber
             {
                 parent.Map.glowGrid.MarkGlowGridDirty(parent.Position);
             }
-            catch { }
+            catch
+            {
+                // ignored
+            }
+
             {
                 //We're interested in this, but not the end users.
                 //Log.Error(ex.Message + "\n" + ex.StackTrace);
@@ -39,7 +45,10 @@ namespace SWSaber
             {
                 parent.Map.glowGrid.MarkGlowGridDirty(parent.Position);
             }
-            catch { }
+            catch
+            {
+                // ignored
+            }
         }
 
         public override void PostDestroy(DestroyMode mode, Map previousMap)
@@ -49,7 +58,10 @@ namespace SWSaber
                 parent.Map.glowGrid.DeRegisterGlower(this);
                 base.PostDestroy(mode, previousMap);
             }
-            catch { }
+            catch
+            {
+                // ignored
+            }
         }
     }
 }

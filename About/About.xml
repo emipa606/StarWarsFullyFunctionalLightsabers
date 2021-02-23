@@ -24,6 +24,7 @@
   <loadAfter>
     <li>brrainz.harmony</li>
     <li>jecrell.jecstools</li>
+    <li>CETeam.CombatExtended</li>
   </loadAfter>
   <description>[img]https://i.imgur.com/WAEzk68.png[/img]
 Update of Xen and Jecrells mod
@@ -31,6 +32,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=918200645
 
 - This is an unofficial port
 - This will be removed when/if Jecrell comes back
+- Added the lightsaber-recipes to the fabrication-bench
 
 [img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
@@ -45,7 +47,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=918200645
 
 [h1]Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.[/h1]
 	
-A16 - GitHub Branch -&gt; https://github.com/jecrell/Star-Wars---Fully-Functional-Lightsabers/tree/A16
+A16 - GitHub Branch -> https://github.com/jecrell/Star-Wars---Fully-Functional-Lightsabers/tree/A16
 
 
 [h1]::::: NOTICE :::::
@@ -108,8 +110,16 @@ Lightsaber Developers
 [h1]Problems? Questions? Comments?
 Join us on Discord https://discord.gg/aDjWBBk
 
-Pssst, Jecrell here. Want more Star Wars mods?
-Support me here: https://www.patreon.com/jecrell
-If you've got extra to spare, be sure to help out Xen: https://www.patreon.com/user?u=5938820
-[/h1]</description>
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

@@ -1,6 +1,6 @@
 ﻿using CompSlotLoadable;
-using Verse;
 using RimWorld;
+using Verse;
 
 namespace SWSaber
 {
@@ -13,7 +13,7 @@ namespace SWSaber
             {
                 //Log.Message("2"); 
 
-                CompLightsaberActivatableEffect compLightsaberActivatableEffect = compOwner.TryGetComp<CompLightsaberActivatableEffect>();
+                var compLightsaberActivatableEffect = compOwner.TryGetComp<CompLightsaberActivatableEffect>();
                 if (compLightsaberActivatableEffect != null)
                 {
                     //Log.Message("3");

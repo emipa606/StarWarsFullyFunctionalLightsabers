@@ -4,42 +4,58 @@ namespace SWSaber
 {
     public static class Utility
     {
-        public static bool modCheck = false;
-        public static bool loadedForcePowers = false;
-        public static bool loadedFactions = false;
+        private static bool modCheck;
+        private static bool loadedForcePowers;
+        private static bool loadedFactions;
 
         public static bool AreForcePowersLoaded()
         {
-            if (!modCheck) ModCheck();
+            if (!modCheck)
+            {
+                ModCheck();
+            }
+
             return loadedForcePowers;
         }
+
         public static bool AreFactionsLoaded()
         {
-            if (!modCheck) ModCheck();
+            if (!modCheck)
+            {
+                ModCheck();
+            }
+
             return loadedFactions;
         }
 
-        public static void ModCheck()
+        private static void ModCheck()
         {
             Log.Message("Mod Check Called");
             loadedForcePowers = false;
             loadedFactions = false;
-            foreach (ModContentPack ResolvedMod in LoadedModManager.RunningMods)
+            foreach (var ResolvedMod in LoadedModManager.RunningMods)
             {
-                if (loadedForcePowers && loadedFactions) break; //Save some loading
+                if (loadedForcePowers && loadedFactions)
+                {
+                    break; //Save some loading
+                }
+
                 if (ResolvedMod.Name.Contains("Star Wars - The Force"))
                 {
                     Log.Message("Lightsabers :: Star Wars - The Force Detected.");
                     loadedForcePowers = true;
                 }
-                if (ResolvedMod.Name.Contains("Star Wars - Factions"))
+
+                if (!ResolvedMod.Name.Contains("Star Wars - Factions"))
                 {
-                    Log.Message("Lightsabers :: Star Wars - Factions Detected.");
-                    loadedFactions = true;
+                    continue;
                 }
+
+                Log.Message("Lightsabers :: Star Wars - Factions Detected.");
+                loadedFactions = true;
             }
+
             modCheck = true;
-            return;
         }
     }
 }
