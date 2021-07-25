@@ -9,7 +9,7 @@ namespace SWSaber
         public override void TryEmptySlot(SlotLoadable slot)
         {
             //Log.Message("1");
-            if (parent is ThingWithComps compOwner)
+            if (parent is { } compOwner)
             {
                 //Log.Message("2"); 
 

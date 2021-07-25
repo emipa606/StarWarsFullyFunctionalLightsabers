@@ -17,8 +17,8 @@ namespace SWSaber
             if (!(parent.AllComps.FirstOrDefault(x => x is CompSlotLoadable.CompSlotLoadable) is
                     CompSlotLoadable.CompSlotLoadable comp) ||
                 !(comp.Slots.FirstOrDefault(x =>
-                    ((SlotLoadableDef) x.def).doesChangeColor) is SlotLoadable colorSlot) ||
-                !(colorSlot.SlotOccupant?.TryGetComp<CompSlottedBonus>() is CompSlottedBonus slotBonus))
+                    ((SlotLoadableDef) x.def).doesChangeColor) is { } colorSlot) ||
+                !(colorSlot.SlotOccupant?.TryGetComp<CompSlottedBonus>() is { } slotBonus))
             {
                 return base.PostGraphicEffects(graphic);
             }
@@ -94,8 +94,8 @@ namespace SWSaber
         public override void Deactivate()
         {
             base.Deactivate();
-            if (!(parent is ThingWithComps t) || !(t.holdingOwner is ThingOwner o) ||
-                !(o.Owner.ParentHolder is Pawn p) || !(p.GetComp<SaberGlow>() is SaberGlow sb) ||
+            if (!(parent is { } t) || !(t.holdingOwner is { } o) ||
+                !(o.Owner.ParentHolder is Pawn p) || !(p.GetComp<SaberGlow>() is { } sb) ||
                 t.MapHeld?.glowGrid == null)
             {
                 return;

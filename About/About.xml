@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Star Wars - Fully Functional Lightsabers (Continued)</name>
   <packageId>Mlie.StarWarsFullyFunctionalLightsabers</packageId>
@@ -7,6 +7,7 @@
   <supportedVersions>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -33,6 +34,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=918200645
 - This is an unofficial port
 - This will be removed when/if Jecrell comes back
 - Added the lightsaber-recipes to the fabrication-bench
+- Added a setting for the Lightsaber glow-effect based on the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2074246443]Star Wars - Fully Functional Lightsabers - Patch[/url] by DAV
+- Added some basic CE-settings
 
 [img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
@@ -47,7 +50,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=918200645
 
 [h1]Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.[/h1]
 	
-A16 - GitHub Branch -> https://github.com/jecrell/Star-Wars---Fully-Functional-Lightsabers/tree/A16
+A16 - GitHub Branch -&gt; https://github.com/jecrell/Star-Wars---Fully-Functional-Lightsabers/tree/A16
 
 
 [h1]::::: NOTICE :::::
@@ -92,7 +95,7 @@ Included on a lightsaber are the following C# libraries:
 [*]Customized lightsaber C# library
 [/list]
 
-Most of these elements can be used by other modders by relocating the assemblies to their own mod folder to make their own mods using these components. So if you'd like to make a gun with different kinds of loadable ammunition, or a different sort of laser sword, now is a good time.
+Most of these elements can be used by other modders by relocating the assemblies to their own mod folder to make their own mods using these components. So if you&apos;d like to make a gun with different kinds of loadable ammunition, or a different sort of laser sword, now is a good time.
 	
 [h1]Special thanks to all those that support me (and help me pay the rent) on Patreon (August 2017):[/h1]
 Jedi Master Ailan, Shane Malley, Dakota Pohlman, Falloutmonk, Slick Liquid, Thom Black ShotgunFace, Fredric Sundberg, Dan Winn, Toss Antilles, Sarah Banks, Undead Jackel, Michin, Chelsea, Caine Detueur, Yewty Oxman, Jerod Clayton, Arty Kubin, Ashleigh Miller, infinity421, TheDayDude, Jacob Duga, Ryan Brock, Evan Hwang, Moshat, Christopher, Don Butterblume, John Boehr, George Chong Chuang Ming, Oliver White, Helpful Bot, vincent de keijzer, roxxploxx, Legless, Christopher Abel, Karol Rybak, Mathias Broxvall, Mark, Tim Stillson, Lachlan Easton, Nemuri Hime, Sera, Christian Hermansen, NiNe Bottles of Rum, Populous25, Steven James, Marcus Siraenu, Michael Lauder, meatface.
@@ -107,7 +110,7 @@ Lightsaber Developers
 [*]German translation by [url=http://steamcommunity.com/id/Lauri7x3/]Lauri7x3[/url]
 [/list]
 
-[h1]Problems? Questions? Comments?
+[h1]Problems? Questions? Comments?[/h1]
 Join us on Discord https://discord.gg/aDjWBBk
 
 
@@ -120,6 +123,6 @@ Join us on Discord https://discord.gg/aDjWBBk
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
+
 </description>
 </ModMetaData>
-
