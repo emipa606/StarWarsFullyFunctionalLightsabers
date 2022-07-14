@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Star Wars - Fully Functional Lightsabers (Continued)</name>
   <packageId>Mlie.StarWarsFullyFunctionalLightsabers</packageId>
@@ -27,7 +27,7 @@
     <li>jecrell.jecstools</li>
     <li>CETeam.CombatExtended</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Xen and Jecrells mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=918200645
 
@@ -36,21 +36,26 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=918200645
 - Added the lightsaber-recipes to the fabrication-bench
 - Added a setting for the Lightsaber glow-effect based on the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2074246443]Star Wars - Fully Functional Lightsabers - Patch[/url] by DAV
 - Added some basic CE-settings
+- Extra crystals can be found in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2615766666] Infused Color Crystals for Star Wars Fully-Functional Lightsabers (Continued)[/url] by ShadowDragon8685
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/StarWarsFullyFunctionalLightsabers][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 [h1]Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.[/h1]
 	
-A16 - GitHub Branch -&gt; https://github.com/jecrell/Star-Wars---Fully-Functional-Lightsabers/tree/A16
+A16 - GitHub Branch - https://github.com/jecrell/Star-Wars---Fully-Functional-Lightsabers/tree/A16
 
 
 [h1]::::: NOTICE :::::
@@ -95,7 +100,7 @@ Included on a lightsaber are the following C# libraries:
 [*]Customized lightsaber C# library
 [/list]
 
-Most of these elements can be used by other modders by relocating the assemblies to their own mod folder to make their own mods using these components. So if you&apos;d like to make a gun with different kinds of loadable ammunition, or a different sort of laser sword, now is a good time.
+Most of these elements can be used by other modders by relocating the assemblies to their own mod folder to make their own mods using these components. So if you'd like to make a gun with different kinds of loadable ammunition, or a different sort of laser sword, now is a good time.
 	
 [h1]Special thanks to all those that support me (and help me pay the rent) on Patreon (August 2017):[/h1]
 Jedi Master Ailan, Shane Malley, Dakota Pohlman, Falloutmonk, Slick Liquid, Thom Black ShotgunFace, Fredric Sundberg, Dan Winn, Toss Antilles, Sarah Banks, Undead Jackel, Michin, Chelsea, Caine Detueur, Yewty Oxman, Jerod Clayton, Arty Kubin, Ashleigh Miller, infinity421, TheDayDude, Jacob Duga, Ryan Brock, Evan Hwang, Moshat, Christopher, Don Butterblume, John Boehr, George Chong Chuang Ming, Oliver White, Helpful Bot, vincent de keijzer, roxxploxx, Legless, Christopher Abel, Karol Rybak, Mathias Broxvall, Mark, Tim Stillson, Lachlan Easton, Nemuri Hime, Sera, Christian Hermansen, NiNe Bottles of Rum, Populous25, Steven James, Marcus Siraenu, Michael Lauder, meatface.
@@ -114,7 +119,7 @@ Lightsaber Developers
 Join us on Discord https://discord.gg/aDjWBBk
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -123,6 +128,5 @@ Join us on Discord https://discord.gg/aDjWBBk
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>
