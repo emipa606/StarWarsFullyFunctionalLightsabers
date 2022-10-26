@@ -1,6 +1,6 @@
 # StarWarsFullyFunctionalLightsabers
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Xen and Jecrells mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=918200645
@@ -10,26 +10,18 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=918200645
 - Added the lightsaber-recipes to the fabrication-bench
 - Added a setting for the Lightsaber glow-effect based on the https://steamcommunity.com/sharedfiles/filedetails/?id=2074246443]Star Wars - Fully Functional Lightsabers - Patch by DAV
 - Added some basic CE-settings
+- Extra crystals can be found in https://steamcommunity.com/sharedfiles/filedetails/?id=2615766666] Infused Color Crystals for Star Wars Fully-Functional Lightsabers (Continued) by ShadowDragon8685
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/CN9Rs5X.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/StarWarsFullyFunctionalLightsabers]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 # Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.
 
 	
-A16 - GitHub Branch -&gt; https://github.com/jecrell/Star-Wars---Fully-Functional-Lightsabers/tree/A16
+A16 - GitHub Branch - https://github.com/jecrell/Star-Wars---Fully-Functional-Lightsabers/tree/A16
 
 
 # ::::: NOTICE :::::
@@ -81,7 +73,7 @@ Included on a lightsaber are the following C# libraries:
 
 
 
-Most of these elements can be used by other modders by relocating the assemblies to their own mod folder to make their own mods using these components. So if you&apos;d like to make a gun with different kinds of loadable ammunition, or a different sort of laser sword, now is a good time.
+Most of these elements can be used by other modders by relocating the assemblies to their own mod folder to make their own mods using these components. So if you'd like to make a gun with different kinds of loadable ammunition, or a different sort of laser sword, now is a good time.
 	
 # Special thanks to all those that support me (and help me pay the rent) on Patreon (August 2017):
 
@@ -104,7 +96,7 @@ Lightsaber Developers
 Join us on Discord https://discord.gg/aDjWBBk
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
