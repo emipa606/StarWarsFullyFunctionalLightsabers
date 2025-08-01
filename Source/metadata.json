@@ -1,5 +1,17 @@
 {
   "Continued": true,
   "CanAdd": "0",
-  "CanRemove": "2"
+  "CanRemove": "2",
+  "LastXmlCleaning": "2025-08-01T11:38:46.7324535+02:00",
+  "SocialImageSet": true,
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 20384,
+  "LinesOfXML": 125234,
+  "SearchTags": [
+    " space",
+    " weapons"
+  ],
+  "PreviewVersion": "1.6"
 }

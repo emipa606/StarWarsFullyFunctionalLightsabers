@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <PJ_Saber.label>砍伤（光剑）</PJ_Saber.label>
   <PJ_Saber.deathMessage>{0}被砍死了。</PJ_Saber.deathMessage>

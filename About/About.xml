@@ -1,57 +1,119 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Star Wars - Fully Functional Lightsabers</name>
+  <name>Star Wars - Fully Functional Lightsabers (Continued)</name>
+  <packageId>Mlie.StarWarsFullyFunctionalLightsabers</packageId>
   <author>Jecrell and Xen</author>
+  <url>https://github.com/emipa606/StarWarsFullyFunctionalLightsabers</url>
   <supportedVersions>
-    <li>1.1</li>
-    <li>1.2</li>
-    <li>1.3</li>
-    <li>1.4</li>
+    <li>1.6</li>
   </supportedVersions>
-  <packageId>projectjedi.lightsabers</packageId>
   <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
     <li>
       <packageId>jecrell.jecstools</packageId>
       <displayName>JecsTools</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/932008009</steamWorkshopUrl>
-      <downloadUrl>https://patreon.com/jecrell</downloadUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3524247750</steamWorkshopUrl>
     </li>
   </modDependencies>
   <loadAfter>
+    <li>brrainz.harmony</li>
     <li>jecrell.jecstools</li>
   </loadAfter>
-  <description>1.22.0.0 (10-24-2022)
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Jecrell and Xens mod https://steamcommunity.com/sharedfiles/filedetails/?id=918200645
 
-	Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.
+'[b]RimWorld 1.6 added improved support for [url=https://github.com/emipa606/AssetBuilder/blob/main/README.md]Asset Bundles[/url] but to be able to use these the previous versions will not be included in this release.[/b].
 
-	Thanks to Jedi Master Ailan for his direction and inspiration in the creation of this mod. Without his help and support this would have never happened.
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
-	C# Programming by Jecrell.
-	C# Fixes, Assets, and XML by Xen.
-    Logo/Art designed by Harrison Gaushell (harrisongaushell.com)
+[table]
+    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/StarWarsFullyFunctionalLightsabers][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[h1]***This mod is no longer being updated. Permission is granted to all modders to remix, recreate, and reuse. Everything I have created is yours. May it serve you well. ***[/h1]
 
-	Patreon Patrons:
-	Jedi Master Ailan, Shane Malley, Michin, TheDayDude, Dakota Pohlman, Falloutmonk, Legless, Slick Liquid,  Don Butterblume, Karol Rybak, Mathias Broxvall, Nemuri Hime, Hannah Forster, Christian Hermansen, NiNe Bottles of Rum, Populous25, Steven James, Marcus Sireanu, Michael Lauder, Thom Black
+[h1]Adds constructable full-SFX lightsabers that can activate, load crystals, and deflect bullets.[/h1]
+	
+A16 - GitHub Branch - https://github.com/jecrell/Star-Wars---Fully-Functional-Lightsabers/tree/A16
 
-Thank you to my Patrons for supporting me in my efforts. Without you, none of this would be possible.
 
-These are the most excellent rim dwellers who support me: 
-Darcilyn Lynds (darci.andel), Luke Salinas, RainerWingel , Noisy Koi, Lea Stannard, David Silberstein, Matt Harris, Kiya Nicoll, Paul Fenwick, Genaeve , Populous25 , David Turner, TinyATuin, Michael Cailler, Jimes Tooper, Sharp Spook, Don Homer, roxxploxx , Alex Mederer, Dan Jones, Michael Whitehead, iknowdude00, Kaz, Alexander , Ken Birdwell, Darcilyn Lynds (darci.andel), Luke Salinas, RainerWingel , Noisy Koi, Lea Stannard, David Silberstein, Matt Harris, Kiya Nicoll, Paul Fenwick, Genaeve , Populous25 , David Turner, TinyATuin, Michael Cailler, Jimes Tooper, Sharp Spook, Don Homer, roxxploxx , Alex Mederer, Dan Jones, Michael Whitehead, iknowdude00, Kaz, Alexander , Ken Birdwell
+[h1]::::: NOTICE :::::
+::::: THIS MOD NOW REQUIRES JECSTOOLS FOR A17 ::::::
+Download[/h1]
+http://steamcommunity.com/sharedfiles/filedetails/?id=932008009
 
-========================
-Changelog
-========================
-1.22.0.0 (10-24-2022)
-========================
-Lightsabers updated to support RimWorld 1.4
+Thanks to [h1]Jedi Master Ailan[/h1] for his direction and inspiration in the creation of this mod. Without his help and support this would have never happened.
 
-1.21.0.0 (02-29-2020)
-========================
-Updates Star Wars Lightsabers to work with the newest version of RimWorld. RimWorld v1.1.
+[h1]Quick start notes:[/h1]
+Lightsabers can be constructed at the component assembly bench.
+Crystals can be refined from rocks at the electric smelter.
+Rare crystals can be found out in RimWorld for sale from merchants or at enemy bases.
+Legendary crystals can be found similarly to artifacts as well as in the clutches of Star Wars faction leaders.
 
-1.20.0.0 (10-19-2018)
-========================
-Initial release for RimWorld 1.0.
+[h1]Reference[/h1]
+[b]Lightsaber Recipe[/b]
+-1x lightsaber casing
+-1x lightsaber internals
 
-</description>
+[b]Lightsaber casing[/b]
+-15 plasteel
+-5 components
+
+[b]Lightsaber internals[/b]
+-25 plasteel
+-15 steel
+-5 components
+
+Lightsaber crystals
+https://docs.google.com/spreadsheets/d/1poiSM7jAlEvDq5fuEsSNwszlSNGmNiW42sp8G3Ujp-Q/edit?usp=sharing
+
+[h1]Technical Details Information[/h1]
+Lightsabers could be the most extensive C# coded weapons available in RimWorld.
+Included on a lightsaber are the following C# libraries:
+[list]
+[*]Extra sounds Component
+[*]Activatable visual effect component
+[*]Crystal slot loadable component
+[*]Oversized weapon component
+[*]Deflection and reflection component
+[*]Customized lightsaber C# library
+[/list]
+
+Most of these elements can be used by other modders by relocating the assemblies to their own mod folder to make their own mods using these components. So if you'd like to make a gun with different kinds of loadable ammunition, or a different sort of laser sword, now is a good time.
+	
+[h1]Special thanks to all those that support me (and help me pay the rent) on Patreon (August 2017):[/h1]
+Jedi Master Ailan, Shane Malley, Dakota Pohlman, Falloutmonk, Slick Liquid, Thom Black ShotgunFace, Fredric Sundberg, Dan Winn, Toss Antilles, Sarah Banks, Undead Jackel, Michin, Chelsea, Caine Detueur, Yewty Oxman, Jerod Clayton, Arty Kubin, Ashleigh Miller, infinity421, TheDayDude, Jacob Duga, Ryan Brock, Evan Hwang, Moshat, Christopher, Don Butterblume, John Boehr, George Chong Chuang Ming, Oliver White, Helpful Bot, vincent de keijzer, roxxploxx, Legless, Christopher Abel, Karol Rybak, Mathias Broxvall, Mark, Tim Stillson, Lachlan Easton, Nemuri Hime, Sera, Christian Hermansen, NiNe Bottles of Rum, Populous25, Steven James, Marcus Siraenu, Michael Lauder, meatface.
+
+Lightsaber Developers
+[list]
+[*]Programming by Jecrell.
+[*]Assets and XML by Xen.
+[*]Logo/Art designed by Harrison Gaushell ([url=harrisongaushell.com]Website[/url])
+[*]Spanish translation by [url=http://steamcommunity.com/id/HUOAAAAAAAAAAH/]Bub[/url].
+[*]French translation by [url=http://steamcommunity.com/profiles/76561198015106010/]MrFootman[/url].
+[*]German translation by [url=http://steamcommunity.com/id/Lauri7x3/]Lauri7x3[/url]
+[/list]
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>

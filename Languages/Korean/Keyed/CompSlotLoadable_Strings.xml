@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <ExceptionSlotAlreadyFilled>{0}의 슬롯이 이미 채워져 있습니다.</ExceptionSlotAlreadyFilled>
   <Unavailable>이용할 수 없음</Unavailable>

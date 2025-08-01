@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <ExceptionSlotAlreadyFilled>{0} のスロットは既に埋め込まれています</ExceptionSlotAlreadyFilled>
   <Unavailable>利用できません</Unavailable>
